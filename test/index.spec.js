@@ -18,7 +18,7 @@ describe('express_recipes_pagination', () => {
             })
     });
 
-    it.only('Should respond with correct data when only page is set in query', (done) => {
+    it('Should respond with correct data when only page is set in query', (done) => {
         chai.request(server)
             .get('/recipes?page=3')
             .then(response => {
