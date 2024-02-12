@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "bluebird": "3.7.2",
-    "chai": "4.3.4",
+    "chai": "5.1.0",
     "chai-http": "4.3.0",
     "cookie-parser": "1.4.5",
     "debug": "2.6.9",
